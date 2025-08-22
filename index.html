@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      @font-face {font-family: 'sora'; src: url('/fonts/Sora-VariableFont_wght.ttf')}
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background-color: #FAFAF9;
+      }
+
+      #cardbox {
+        border-radius: 16px;
+        margin-left: 164px;
+        margin-top: 164px;
+        border-color: black;
+        width: 368px;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+
+      #cardbox #img {
+        margin-left: 16px;
+        margin-top: 16px;
+        border-radius: 16px;
+      }
+
+      #cardbox #Design-Box {
+        border-radius: 16px;
+        margin-top: 16px;
+        margin-left: 16px;
+        background-color: #F2EAFD;
+        font-family: 'sora';
+        font-weight: 600;
+        font-size: 0.625rem;
+        color: #7C19EE;
+        display: flex;
+        justify-self: center;
+        justify-self: start;
+        
+      }
+      
+      #cardbox #Design-Box #Design-Text {
+        margin-left: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-right: 16px;
+        
+      }
+
+      #cardbox #Title {
+        margin-left: 16px;
+        margin-top: 16px ;
+        font-family: 'sora';
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #20293A;
+      }
+
+      #cardbox #Text {
+        margin-left: 16px;
+        margin-top: 6px;
+        font-family: 'sora';
+        font-size: 0.875rem;
+        color: #394150;
+        text-wrap: balance;
+        line-height: 20px;
+        font-weight: 200px;
+      }
+
+      #cardbox #line  {
+        margin-top: 20px;
+        height: 1px;
+        color: #E5EAF0;
+        background-color: #E5EAF0;
+        border: none;
+      }
+
+      #cardbox #Author {
+        font-family: 'sora';
+        font-size: 0.75rem;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 16px;
+        color: #394150;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+    <div id="cardbox">
+      <img src="resources/Cactus.jpg" alt="ody es gay" id="img">
+      <div id="Design-Box">
+        <div id="Design-Text" >Design</div>
+      </div>
+      <div id="Title">Embracing Minimalism</div>
+      <p id="Text">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+      <hr id="line">
+      <div id="Author">Annie Spratt</div>
+    </div>
+  </body>
+</html>
